@@ -1,0 +1,24 @@
+{
+  "name": "googlesearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runHeadless": "./node_modules/.bin/cypress run --headless",
+    "runHeaded":"./node_modules/.bin/cypress run --headead --browse chrome" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  },
+  "dependencies": {
+    "cypress": "^6.4.0"
+  },
+    "cypress-cucumber-preprocessor": {
+      "nonGlobalStepDefinitions": true
+
+}
+}
